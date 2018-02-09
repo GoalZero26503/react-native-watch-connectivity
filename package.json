@@ -7,7 +7,7 @@
     "build": "babel Libraries/RNWatch/RNWatch.ios.js > Libraries/RNWatch/RNWatch.ios.build.js"
   },
   "dependencies": {
-    "react": "15.4.2",
+    "react": ">=15.4.2",
     "react-native": "^0.41.2",
     "react-native-camera": "^0.6.0",
     "react-native-image-picker": "^0.25.6",
@@ -18,7 +18,7 @@
     "babel-preset-react-native": "1.9.1",
     "babel-preset-react-native-stage-0": "1.0.1",
     "jest": "18.1.0",
-    "react-test-renderer": "15.4.2"
+    "react-test-renderer": ">=15.4.2"
   },
   "jest": {
     "preset": "react-native"
